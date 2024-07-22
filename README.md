@@ -51,6 +51,14 @@ This repository contains an implementation of the Predicted Mean Vote (PMV) calc
 - **Step 8:** Call the `get_indoor_environment_data()` method to fetch environmental data.
 - **Step 9:** Call the `calculate_pmv(Ta, Tm, wind_speed, humidity)` method to calculate the PMV value.
 - **Step 10:** Print the calculated PMV value.
+- 
+# *reference*
+ 
+Yutong CHEN,Daisuke SUMIYOSHI [Development of Low-Cost IoT Units for Thermal Comfort Measurement and AC Energy Consumption Prediction System](https://kth-my.sharepoint.com/personal/torunw_ug_kth_se/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Ftorunw%5Fug%5Fkth%5Fse%2FDocuments%2Fbox%5Ffiles%2FRoomVent%2FRoomVent%5F2024%5FProceedings%2F240425%201400a%20Session%2026%20IC%20Thermal%20comfort%201%2FPrint%20439%20Final%2Epdf&parent=%2Fpersonal%2Ftorunw%5Fug%5Fkth%5Fse%2FDocuments%2Fbox%5Ffiles%2FRoomVent%2FRoomVent%5F2024%5FProceedings%2F240425%201400a%20Session%2026%20IC%20Thermal%20comfort%201![image](https://github.com/user-attachments/assets/537ab711-703e-4c39-b811-ccc46ccde782)
+)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Code Example
 
@@ -129,11 +137,5 @@ Ta, humidity, CO2_conce, pressure, Tm, Tg = monitor.get_indoor_environment_data(
 pmv = monitor.calculate_pmv(Ta, Tm, 0.1, humidity)  # Example wind speed
 print("Calculated PMV:", pmv)
 
-# *reference*
- 
-Yutong CHEN,Daisuke SUMIYOSHI [Development of Low-Cost IoT Units for Thermal Comfort Measurement and AC Energy Consumption Prediction System](https://kth-my.sharepoint.com/personal/torunw_ug_kth_se/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Ftorunw%5Fug%5Fkth%5Fse%2FDocuments%2Fbox%5Ffiles%2FRoomVent%2FRoomVent%5F2024%5FProceedings%2F240425%201400a%20Session%2026%20IC%20Thermal%20comfort%201%2FPrint%20439%20Final%2Epdf&parent=%2Fpersonal%2Ftorunw%5Fug%5Fkth%5Fse%2FDocuments%2Fbox%5Ffiles%2FRoomVent%2FRoomVent%5F2024%5FProceedings%2F240425%201400a%20Session%2026%20IC%20Thermal%20comfort%201![image](https://github.com/user-attachments/assets/537ab711-703e-4c39-b811-ccc46ccde782)
-)
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
