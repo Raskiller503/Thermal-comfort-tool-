@@ -4,6 +4,9 @@ PMV calculation is very complex due to it itneary and time consuming. In this pa
 # PMV Calculation Algorithm
 
 This repository contains an implementation of the Predicted Mean Vote (PMV) calculation algorithm. PMV is a thermal comfort index that predicts the mean value of the votes of a large group of people on the 7-point thermal sensation scale, which ranges from cold (-3) to hot (+3).
+<p align="center">
+  <img src="Image/Flow.png" width="400" height='300' alt="Process Flow">
+</p>
 
 ## Algorithm Flowchart
 
@@ -126,8 +129,5 @@ Ta, humidity, CO2_conce, pressure, Tm, Tg = monitor.get_indoor_environment_data(
 pmv = monitor.calculate_pmv(Ta, Tm, 0.1, humidity)  # Example wind speed
 print("Calculated PMV:", pmv)
 
-<p align="center">
-  <img src="Image/Flow.png" width="400" height='300' alt="Process Flow">
-</p>
 
 
