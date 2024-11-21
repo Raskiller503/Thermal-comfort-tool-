@@ -55,7 +55,7 @@ This repository contains an implementation of the Predicted Mean Vote (PMV) calc
 ## Code Example
 
 ```bash
-git clone https://github.com/Raskiller503/Thermal-comfort-tool-/blob/main/PMVcalculator.py
+git clone https://github.com/Raskiller503/Thermal-comfort-tool-.git
 ```
 
 ## Reference
